@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "PulsePing",
+  "name": "PulsePing - Real-Time Website & Server Monitoring",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +18,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#007bff",
+  "background_color": "#f8f9fa",
+  "description": "PulsePing helps you monitor your websites and servers in real-time. Get instant alerts for downtimes and track uptime statistics."
 }
