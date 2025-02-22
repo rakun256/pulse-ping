@@ -27,7 +27,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
   font-family: 'Manrope', sans-serif;
   margin: 4px 16px;
 }

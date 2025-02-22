@@ -40,6 +40,7 @@
     border-radius: 15px;
     color: var(--text-color-surface);
     white-space: nowrap;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
 .header-signup-button{
@@ -48,7 +49,11 @@
     border-radius: 15px;
     color: var(--text-color-surface);
     white-space: nowrap;
-    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.header-login-button:hover, .header-signup-button:hover{
+    background-color: var(--secondary);
 }
 
 .header-theme-toggle{
