@@ -7,7 +7,9 @@
   --support-1: #7da0fa;
   --support-2: #7978e9;
   --support-3: #f3797e;
+  --support-4: #acacc2;
   --text-color: #222;
+  --text-color-surface: #f5f7ff;
 }
 
 [data-theme="dark"] {
@@ -17,7 +19,9 @@
   --support-1: #5673b8;
   --support-2: #5d54b5;
   --support-3: #d66567;
+  --support-4: #464650;
   --text-color: #ededed;
+  --text-color-surface: #f5f7ff;
 }
 
 body {
@@ -25,4 +29,10 @@ body {
   color: var(--text-color);
   transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
   font-family: 'Manrope', sans-serif;
+  margin: 4px 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

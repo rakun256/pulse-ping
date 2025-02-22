@@ -6,9 +6,10 @@ const ThemeToggle = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <button className={`theme-toggle ${theme}`} onClick={toggleTheme}>
-      <div className="toggle-icon">{theme === "light" ? "🌞" : "🌙"}</div>
-    </button>
+    <label className="theme-switch">
+      <input type="checkbox" checked={theme === "dark"} onChange={toggleTheme} />
+      <span className="slider"></span>
+    </label>
   );
 };
 
