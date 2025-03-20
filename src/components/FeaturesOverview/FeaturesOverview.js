@@ -1,8 +1,9 @@
 import React from 'react'
+import "./FeaturesOverview.css"
 
 const FeaturesOverview = () => {
   return (
-    <div>FeaturesOverview</div>
+    <div className='features-container'>FeaturesOverview</div>
   )
 }
 

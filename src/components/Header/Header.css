@@ -1,63 +1,66 @@
-.header-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
 }
 
-.header-left{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  gap: 8px;
 }
 
-.header-logo{
-    width: 75px;
-    height: 75px;
+.header-logo {
+  width: 75px;
+  height: 75px;
 }
 
-.header-title{
-    font-size: 25px;
-    font-weight: 800;
-    color: var(--primary);
+.header-title {
+  font-size: 25px;
+  font-weight: 800;
+  color: var(--primary);
 }
 
-.header-right{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    font-size: 14px;
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-right: 24px;
 }
 
-.header-login-button{
-    padding: 10px 26px;
-    background-color: var(--primary);
-    border-radius: 15px;
-    color: var(--text-color-surface);
-    white-space: nowrap;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+.header-login-button {
+  padding: 10px 26px;
+  background-color: var(--primary);
+  border-radius: 15px;
+  color: var(--text-color-surface);
+  white-space: nowrap;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
-.header-signup-button{
-    padding: 10px 20px;
-    background-color: var(--support-2);
-    border-radius: 15px;
-    color: var(--text-color-surface);
-    white-space: nowrap;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+.header-signup-button {
+  padding: 10px 20px;
+  background-color: var(--support-2);
+  border-radius: 15px;
+  color: var(--text-color-surface);
+  white-space: nowrap;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
-.header-login-button:hover, .header-signup-button:hover{
-    background-color: var(--secondary);
+.header-login-button:hover,
+.header-signup-button:hover {
+  background-color: var(--secondary);
 }
 
-.header-theme-toggle{
-    position: relative;
-    margin-right: 16px;
-    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+.header-button-icon{
+  margin-left: 6px;
+  font-size: 14px;
 }

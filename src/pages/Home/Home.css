@@ -1,0 +1,47 @@
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  width: 40vw;
+  height: 40vw;
+  max-width: 600px;
+  max-height: 600px;
+  filter: blur(120px);
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glow:nth-of-type(1) {
+  top: 5%;
+  left: -15%;
+  background: radial-gradient(circle, var(--primary) 0%, transparent 70%);
+}
+
+.glow:nth-of-type(2) {
+  top: 20%;
+  right: -12%;
+  background: radial-gradient(circle, var(--support-3) 0%, transparent 70%);
+}
+
+.glow:nth-of-type(3) {
+  bottom: -10%;
+  left: 10%;
+  background: radial-gradient(circle, var(--support-1) 0%, transparent 70%);
+}
+
+.glow:nth-of-type(4) {
+  bottom: -10%;
+  right: -10%;
+  background: radial-gradient(circle, var(--secondary) 0%, transparent 70%);
+}
+
+.home-container > *:not(.glow) {
+  position: relative;
+  z-index: 1;
+}
