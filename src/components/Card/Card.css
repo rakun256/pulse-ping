@@ -1,0 +1,23 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.card-title{ 
+    text-align: center;
+    font-weight: 800;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.card-description{
+    text-align: center;
+    color: var(--semi-text);
+}
+
+.card-icon{
+    font-size: 96px;
+}

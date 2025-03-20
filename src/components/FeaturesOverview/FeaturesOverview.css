@@ -1,6 +1,28 @@
-.features-container{
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.features-card-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .features-card-grid {
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
 }

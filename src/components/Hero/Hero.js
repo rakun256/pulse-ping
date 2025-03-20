@@ -3,6 +3,7 @@ import "./Hero.css";
 import hero from "../../assets/hero6.png";
 import { faGaugeHigh } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ScrollDownAnimation from "../ScrollDownAnimation/ScrollDownAnimation";
 
 const Hero = () => {
   return (
@@ -19,10 +20,11 @@ const Hero = () => {
         <div className="hero-container-inside-right">
           <a href="/dashboard">
             Go to dashboard.
-            <FontAwesomeIcon icon={faGaugeHigh} className="hero-button-icon"/>
+            <FontAwesomeIcon icon={faGaugeHigh} className="hero-button-icon" />
           </a>
         </div>
       </div>
+      <ScrollDownAnimation />
     </div>
   );
 };

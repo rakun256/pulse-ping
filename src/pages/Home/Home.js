@@ -13,10 +13,10 @@ const Home = () => {
       <div className="glow"></div>
       <div className="glow"></div>
 
-      <Header />
-      <Hero />
-      <FeaturesOverview />
-      <Footer />
+      <Header className="home-header"/>
+      <Hero className="home-hero"/>
+      <FeaturesOverview className="home-features"/>
+      <Footer className="home-footer"/>
     </div>
   );
 };

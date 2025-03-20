@@ -45,3 +45,16 @@
   position: relative;
   z-index: 1;
 }
+
+.home-header{
+  position: fixed;
+}
+.home-hero{
+  position: relative;
+}
+.home-feature{
+  position: relative;
+}
+.home-footer{
+  position: relative;
+}
