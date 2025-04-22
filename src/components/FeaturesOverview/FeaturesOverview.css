@@ -6,13 +6,19 @@
   margin-top: 50px;
   margin-right: 50px;
   margin-left: 50px;
+  height: 100vh;
 }
 
 .features-card-grid {
   display: grid;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 4rem;
+}
+
+.features-title h1{
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 
 @media (min-width: 768px) {

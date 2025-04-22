@@ -6,6 +6,7 @@ import Login from "./pages/Login/Login";
 import NotFound from "./pages/NotFound/NotFound"; 
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import { ThemeProvider } from "./context/ThemeContext";
+import usePing from "./hooks/usePing";
 
 function ProtectedRoute({ element }) {
   const { user } = useAuth(); 
@@ -13,6 +14,7 @@ function ProtectedRoute({ element }) {
 }
 
 function App() {
+  usePing(); 
   return (
     <AuthProvider>
       <ThemeProvider>

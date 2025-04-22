@@ -16,6 +16,7 @@
 .card-description{
     text-align: center;
     color: var(--semi-text);
+    width: 420px;
 }
 
 .card-icon{
